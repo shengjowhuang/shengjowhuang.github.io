@@ -1,0 +1,23 @@
+body {
+    font-family: Oswald;
+}
+
+p {
+    color: #11A5C7;
+}
+
+table {
+    font-size: normal;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    color: green;
+}
+
+td.aaa {
+    font-weight: blod;
+}

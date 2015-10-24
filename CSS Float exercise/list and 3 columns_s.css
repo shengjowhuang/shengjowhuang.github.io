@@ -1,0 +1,222 @@
+/* v1.0 | 20080212 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+
+
+/* remember to highlight inserts somehow! */
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*上方為CSS RESET語法*/
+
+
+/*自己的CSS*/
+
+ul li {
+    float: left;
+    display: block;
+    background-color: #9A5927;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14pt;
+}
+
+.list {
+    position: fixed;
+    background-color: #9A5927;
+    width: 100%;
+    height: 50px;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li a {
+    color: #FFF93A;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: #F6BC34;
+}
+
+
+/*
+ul li ul li:hover {
+    background-attachment: #F9F59A;
+}
+
+ul li ul li:hover a {
+    color: #9A5927;
+}
+*/
+
+img {
+    display: block;
+    margin: auto;
+}
+
+section {
+    position: fixed;
+}
+
+#good {
+    float: left;
+    width: 30%;
+    overflow: auto;
+    background-color: #FFF5CB;
+    text-align: center;
+}
+
+#bad {
+    float: right;
+    width: 30%;
+    overflow: auto;
+    background-color: #FFF5CB;
+    text-align: center;
+}
+
+#feature {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    background-color: #FFF5CB;
+    text-align: center;
+}
+
+h2 {
+    height: 20px;
+    border: 3px;
+    border-style: dashed;
+    text-align: center;
+    font-weight: bold;
+    color: #9A5927;
+    text-align: center;
+    font-size: 14pt;
+}
+
+h4 {
+    color: #9A5927;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: underline;
+}

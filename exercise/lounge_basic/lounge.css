@@ -1,0 +1,49 @@
+/*
+p {
+    background-color: red;
+    padding: 50px;
+    border: solid 5px orange;
+    border-style: double;
+    border-radius: 12px;
+    margin: 50px;
+}
+
+
+
+div.c-b {
+    box-sizing: content-box;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    padding: 50px;
+}
+
+div.b-b {
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    padding: 50px;
+}
+*/
+
+p.direction {
+    /*邊框大小*/
+    box-sizing: border-box;
+    width: 500px;
+    padding: 30px;
+    padding-left: 100px;
+    background-color: aquamarine;
+    /*鋸齒邊框*/
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 15px;
+    /*背景圖片*/
+    background-image: url(./images/christmas131.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: dotted;*/
+}
