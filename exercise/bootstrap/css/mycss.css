@@ -1,0 +1,42 @@
+.mybtn {
+    color: red;
+    background-color: yellow;
+}
+
+.cola {
+    background-color: #5C7080;
+}
+
+.colb {
+    background-color: #6BC0FF;
+}
+
+.colc {
+    background-color: green;
+}
+
+.cold {
+    background-color: yellow;
+}
+
+
+/*
+video {
+    position: fixed;
+    z-index: -100;
+}
+*/
+
+#jumbo {
+    position: relative;
+    opacity: 0.7;
+}
+
+#jumbo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}

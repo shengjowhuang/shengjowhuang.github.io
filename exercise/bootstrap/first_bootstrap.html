@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My First Bootstrap Blog</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" datatoggle="
+collapse" data-target="#mynavbar-content">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BOOTSTRAP</a>
+            </div>
+            <!--導覽列的內容清單-->
+            <div class="collapse navbar-collapse" id="mynavbar-content">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Products</a></li>
+                    <!--下拉式選單-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b
+class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Board of Members</a></li>
+                            <li><a href="#">Developers Team</a></li>
+                            <li><a href="#">Designing Team</a></li>
+                            <!--下拉式選單分隔線-->
+                            <li class="divider"></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Share holders</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="jumbo" class="jumbotron container">
+        <div>
+            <h1>Welcome to my site! <small>I think you’ll like it.</small></h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a class="btn btn-primary btn-large mybtn">Learn more &raquo;</a></p>
+        </div>
+        <video autoplay poster="waterdrop.jpg" id="bgvid" loop>
+            <source src="waterdrop.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="pika2.jpg" alt="...">
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="pika2.jpg" alt="...">
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="pika2.jpg" alt="pika">
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <video autoplay loop width="600" controls muted>
+        <source src="waterdrop.mp4" type="video/mp4">
+    </video>
+    -->
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>My First Bootstrap Blog!!</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 cola">
+                <h3>Post Title 1</h3>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga numquam odio hic, deserunt vero tempora est facere perferendis commodi soluta repudiandae accusamus beatae eius dolore cupiditate ad ex accusantium.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 colb">
+                <h3>Post Title 2</h3>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga numquam odio hic, deserunt vero tempora est facere perferendis commodi soluta repudiandae accusamus beatae eius dolore cupiditate ad ex accusantium.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 colc">
+                <h3>Post Title 3</h3>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga numquam odio hic, deserunt vero tempora est facere perferendis commodi soluta repudiandae accusamus beatae eius dolore cupiditate ad ex accusantium.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 cola">
+                <h3>Post Title 4</h3>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga numquam odio hic, deserunt vero tempora est facere perferendis commodi soluta repudiandae accusamus beatae eius dolore cupiditate ad ex accusantium.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 colb">
+                <h3>Post Title 5</h3>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga numquam odio hic, deserunt vero tempora est facere perferendis commodi soluta repudiandae accusamus beatae eius dolore cupiditate ad ex accusantium.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 colc">
+                <h3>Post Title 6</h3>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga numquam odio hic, deserunt vero tempora est facere perferendis commodi soluta repudiandae accusamus beatae eius dolore cupiditate ad ex accusantium.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 cola">
+                <h3>Column 1</h3>
+                <!-- 在col裡加新的row -->
+                <div class="row">
+                    <div class="col-sm-6 colc">
+                        <h3>row1</h3></div>
+                    <div class="col-sm-6 cold">
+                        <h3>row2</h3></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col2 colb">
+                <h3>Column 2</h3>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
